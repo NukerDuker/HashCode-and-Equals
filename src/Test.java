@@ -27,4 +27,12 @@ public class Test {
         Test temp = (Test) obj;
         return ID == temp.ID && NAME == temp.NAME && NAME.equals(temp.NAME);
     }
+
+    public int getID() {
+        return ID;
+    }
+
+    public String getNAME() {
+        return NAME;
+    }
 }
